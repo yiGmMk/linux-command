@@ -6,7 +6,7 @@
   "main": "dist/data.json",
   "scripts": {
     "start": "npm run build",
-    "build": "node scripts/build.mjs",
+    "build": "node scripts/sitemap.js && node scripts/build.mjs",
     "dash": "npm run build && node scripts/dash.mjs"
   },
   "files": [
